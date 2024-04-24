@@ -1,0 +1,20 @@
+
+:root
+{
+  --clr-primary-tomato: hsl(4, 100%, 67%);
+
+  --clr-primary-dark-slate-grey: hsl(234, 29%, 20%);
+  --clr-primary-charcoal-grey: hsl(235, 18%, 26%);
+  --clr-primary-grey: hsl(231, 7%, 60%);
+
+  --clr-neutral-white: hsl(0, 0%, 100%);
+
+  --ff-normal: "Roboto", "sans-serif";
+  --ff-accent: "Roboto", sans-serif;
+
+  --fw-bold: 700;
+  --fw-normal: 400;
+  --fw-light: 200;
+
+  --fs-normal: 16px;
+}
