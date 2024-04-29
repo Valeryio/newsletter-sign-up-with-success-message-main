@@ -1,14 +1,72 @@
+@import "./variables.css";
+@import "./components.css";
+
+
 /*This is the style file for the CSS of the UI element*/
 
-
-
-.sign-up-form
+body
 {
+    font-family: var(--ff-normal);
+}
+
+
+
+
+
+
+/**/
+
+.sign-up-infos > *
+{
+    margin-bottom: 1rem;
+}
+
+.sign-up-infos__title
+{
+    font-size: 32px;
+}
+
+.sign-up-infos__item
+{
+  display: flex;
+  gap: 1rem;
 
 }
 
+.sign-up-infos
+{
+  padding: 1.5rem;
+
+}
+
+
+
+
+
+/**/
+.sign-up-form__input-box
+{
+  display: ;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form__label
+{
+  font-size: 0.8rem;
+  font-weight: var(--fw-bold);
+}
+
+.sign-up-form__input
+{
+    height: 3.5rem;
+}
+
+
+
+/**/
 .attribution
 {
-    bottom: 0;
-    position: fixed;
+  bottom: 0;
+  position: fixed;
 }
