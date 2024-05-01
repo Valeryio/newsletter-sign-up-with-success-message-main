@@ -16,28 +16,26 @@ body
 
 /**/
 
-.sign-up-infos > *
-{
-  margin-bottom: 1rem;
-}
-
-.sign-up-infos__title
-{
-  font-size: 32px;
-}
-
-.sign-up-infos__item
-{
-  display: flex;
-  gap: 1rem;
-
-}
-
 .sign-up-infos
 {
-  padding: 1.5rem;
-
+  padding: 0.5rem 1.5rem;
 }
+
+  .sign-up-infos > *
+  {
+    margin-bottom: 1rem;
+  }
+
+  .sign-up-infos__title
+  {
+    font-size: 32px;
+  }
+
+  .sign-up-infos__item
+  {
+    display: flex;
+    gap: 1rem;
+  }
 
 
 
@@ -46,8 +44,13 @@ body
 /**/
 .sign-up-form
 {
-  padding: 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
+
+  .sign-up-form > *
+  {
+    margin-bottom: 1rem;
+  }
 
   .sign-up-form__input-box
   {
@@ -57,6 +60,7 @@ body
 
     .sign-up-form__label
     {
+      margin-bottom: 1rem;
       font-size: 0.8rem;
       font-weight: var(--fw-bold);
     }
@@ -65,6 +69,8 @@ body
     {
       padding: 1rem;
       height: 3.5rem;
+      min-width: 18rem;
+      max-width: 19rem;
       border-radius: .5rem;
       color: var(--clr-primary-gray);
       border: 1px solid var(--clr-primary-gray);

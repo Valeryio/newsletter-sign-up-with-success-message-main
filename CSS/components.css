@@ -10,5 +10,21 @@
 
 .btn
 {
-  padding: .8rem 2.2rem;
+  padding: 1rem 2.2rem;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary
+{
+    background-color: var(--clr-primary-dark-slate-gray);
+    color: white;
+    font-size: var(--fw-bold);
+    transition: background 0.5s ease-in-out;
+}
+
+.btn--primary:hover
+{
+    background: var(--clr-primary-tomato);
 }
