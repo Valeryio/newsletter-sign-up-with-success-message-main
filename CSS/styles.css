@@ -6,7 +6,7 @@
 
 body
 {
-    font-family: var(--ff-normal);
+  font-family: var(--ff-normal);
 }
 
 
@@ -18,12 +18,12 @@ body
 
 .sign-up-infos > *
 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .sign-up-infos__title
 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .sign-up-infos__item
@@ -44,23 +44,32 @@ body
 
 
 /**/
-.sign-up-form__input-box
+.sign-up-form
 {
-  display: ;
-  display: flex;
-  flex-direction: column;
+  padding: 1.5rem;
 }
 
-.sign-up-form__label
-{
-  font-size: 0.8rem;
-  font-weight: var(--fw-bold);
-}
+  .sign-up-form__input-box
+  {
+    display: flex;
+    flex-direction: column;
+  }
 
-.sign-up-form__input
-{
-    height: 3.5rem;
-}
+    .sign-up-form__label
+    {
+      font-size: 0.8rem;
+      font-weight: var(--fw-bold);
+    }
+
+    .sign-up-form__input
+    {
+      padding: 1rem;
+      height: 3.5rem;
+      border-radius: .5rem;
+      color: var(--clr-primary-gray);
+      border: 1px solid var(--clr-primary-gray);
+      outline: none;
+    }
 
 
 

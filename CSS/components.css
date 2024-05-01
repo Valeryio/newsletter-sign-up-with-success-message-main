@@ -2,5 +2,13 @@
 
 .sign-up-infos__checked-img
 {
-    max-width: 24px;
+  max-width: 24px;
+}
+
+
+/* Call to action button */
+
+.btn
+{
+  padding: .8rem 2.2rem;
 }
