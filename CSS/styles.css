@@ -141,4 +141,10 @@ body
     grid-row: 1;
   }
   
+
+  .attribution
+  {
+    color: white;
+  }
+
 }
