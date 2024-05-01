@@ -14,7 +14,10 @@ body
 
 
 
-/**/
+
+/*-------------------------------------*\
+*     
+\*-------------------------------------*/
 
 .sign-up-infos
 {
@@ -38,10 +41,10 @@ body
   }
 
 
-
-
-
-/**/
+/*
+* That is the code of the sign up form in the mobile
+* version of the design
+*/
 .sign-up-form
 {
   padding: 0.5rem 1.5rem;
