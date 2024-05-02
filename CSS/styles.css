@@ -28,17 +28,11 @@ body
 .sign-up-container
 {
   max-width: 375px;
-  /* border: 1px solid; */
   background-color: white;
   border-radius: 1rem;
   overflow: hidden;
 }
-/* 
-.sign-up-infos__picture img
-{
-  border: 1px solid;
-  width: 100%;
-} */
+
 
 
 .sign-up-infos
@@ -140,7 +134,6 @@ body
   {
     grid-row: 1;
   }
-  
 
   .attribution
   {
